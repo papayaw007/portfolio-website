@@ -1,0 +1,19 @@
+import React from 'react'
+
+export default function Navbar() {
+  return (
+    <main>
+         <div className='flex flex-col md:flex-row items-center justify-between px-4 md:px-8 lg:px-40 py-10 md:py-6 w-full'>
+  <div className='text-2xl md:text-3xl font-bold mb-4 md:mb-0'>dev.py</div>
+  <div className='w-full md:w-auto'>
+    <ul className='flex flex-wrap justify-center md:justify-end gap-4 md:gap-6 lg:gap-10 text-lg md:text-xl lg:text-2xl font-light'>
+      <li className='cursor-pointer border-b-2 border-white hover:text-gray-500 transition-colors hover:border-b-2 hover:border-gray-500'>About</li>
+      <li className='cursor-pointer border-b-2 border-white hover:text-gray-500 transition-colors hover:border-b-2 hover:border-gray-500 '>Experience</li>
+      <li className='cursor-pointer border-b-2 border-white hover:text-gray-500 transition-colors hover:border-b-2 hover:border-gray-500'>Projects</li>
+      <li className='cursor-pointer border-2 border-black px-3 rounded-md hover:text-white hover:bg-black transition-colors hover:border-b-2 hover:border-gray-500'>Contact</li>
+    </ul>
+  </div>
+</div>
+    </main>
+  )
+}
