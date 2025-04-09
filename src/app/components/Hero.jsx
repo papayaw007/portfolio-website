@@ -18,7 +18,7 @@ export default function Hero() {
                 ></Image>
             </div>
             <div className='space-y-4'>
-              <p className='text-xl font-semibold text-center text-zinc-500'>Hello i'm</p>
+              <p className='text-xl font-semibold text-center text-zinc-500'>Hello, i'm</p>
               <p className='text-3xl md:text-5xl font-semibold'>Papa Yaw Adu-Asare</p>
               <div>
               <p className='text-center text-2xl md:text-3xl font-medium text-zinc-500'>Front-End Developer</p>
