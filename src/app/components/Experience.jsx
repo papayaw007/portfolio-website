@@ -18,7 +18,7 @@ export default function Experience() {
     <main>
     <div className='min-h-screen'>
         <div className='w-full text-center py-8 md:py-15'>
-            <p>Explore my</p>
+            <p className='text-gray-500 text-2xl'>Explore my</p>
             <p className='text-4xl md:text-5xl font-semibold'>Experience</p>
         </div>
         <div className='flex flex-col md:flex-row justify-center items-center py-8 md:py-15 gap-8 md:gap-20 px-4'>
@@ -75,7 +75,7 @@ export default function Experience() {
                             </div>
                             <div>
                                 <p className='text-base md:text-lg font-semibold text-gray-500'>React</p>
-                                <p className='bg-cyan-100 text-cyan-400 px-1 rounded-md text-sm md:text-base'>Experienced</p> 
+                                <p className='bg-cyan-100 text-cyan-400 px-1 rounded-md text-sm md:text-base'>Basic</p> 
                             </div>
                         </li>
                         <li className='flex justify-start items-center space-x-5'>
@@ -84,7 +84,7 @@ export default function Experience() {
                             </div>
                             <div>
                                 <p className='text-base md:text-lg font-semibold text-gray-500'>VUE</p>
-                                <p className='bg-green-100 text-green-400 px-1 rounded-md text-sm md:text-base'>Experienced</p> 
+                                <p className='bg-green-100 text-green-400 px-1 rounded-md text-sm md:text-base'>Basic</p> 
                             </div>
                         </li>
                         <li className='flex justify-start items-center space-x-5'>
@@ -102,7 +102,7 @@ export default function Experience() {
                             </div>
                             <div>
                                 <p className='text-base md:text-lg font-semibold text-gray-500'>Git</p>
-                                <p className='bg-red-100 text-red-400 px-1 rounded-md text-sm md:text-base'>Basic</p> 
+                                <p className='bg-red-100 text-red-400 px-1 rounded-md text-sm md:text-base'>Intermediate</p> 
                             </div>
                         </li>
                     </ul>
