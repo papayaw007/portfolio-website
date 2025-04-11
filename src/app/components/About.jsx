@@ -8,7 +8,7 @@ import { MdWork } from 'react-icons/md';
 export default function About() {
   return (
     <main>
-  <div className='flex flex-col h-screen bg-gray-50'>
+  <div className='flex flex-col min-h-screen bg-gray-50'>
     <div className='w-full text-center mt-10'>
       <p>Get to Know More</p>
       <p className='text-5xl md:text-5xl sm:text-4xl font-semibold'>About Me</p>
@@ -42,7 +42,7 @@ export default function About() {
             </div>
           </div>
           <div className='mt-10 shadow-2xl border border-gray-300 rounded-lg bg-white py-8 sm:py-10 px-6 sm:px-8 text-sm sm:text-base'>
-            Hey there! I'm Papa Yaw — a curious mind wired for creativity and code.With a background in <br className='hidden md:block' /> Computer Engineering and over a year of hands-on front-end experience, I bring ideas to <br className='hidden md:block' /> life with pixels, coffee, and way too many tabs open. I love building sleek, responsive interfaces <br className='hidden md:block' />and Im always hungry to learn the next cool thing.  Whether it's debugging at 2am or cheering <br className='hidden md:block' /> when a layout finally aligns, Im in it for the craft, the growth, and the occasional "wow" moment.<br className='hidden md:block' /> Lets build something awesome!
+            Hey there! I'm P.Y — a curious mind wired for creativity and code.With a background in <br className='hidden md:block' /> Computer Engineering and over a year of hands-on front-end experience, I bring ideas to <br className='hidden md:block' /> life with pixels, coffee, and way too many tabs open. I love building sleek, responsive interfaces <br className='hidden md:block' />and Im always hungry to learn the next cool thing.  Whether it's debugging at 2am or cheering <br className='hidden md:block' /> when a layout finally aligns, Im in it for the craft, the growth, and the occasional "wow" moment.<br className='hidden md:block' /> Lets build something awesome!
           </div>
         </div>
       </div>
