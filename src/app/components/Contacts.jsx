@@ -3,7 +3,7 @@ import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Contacts() {
   return (
-    <main>
+    <main id='contact'>
   <div className="flex justify-center items-center min-h-screen">
     <div className="flex flex-col justify-center items-center px-4 md:px-0">
       <div className="w-full text-center space-y-3 md:space-y-5 py-8 md:py-5">

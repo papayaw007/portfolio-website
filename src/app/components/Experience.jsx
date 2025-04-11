@@ -15,7 +15,7 @@ import {
 
 export default function Experience() {
   return (
-    <main>
+    <main id='experience'>
     <div className='min-h-screen'>
         <div className='w-full text-center py-8 md:py-15'>
             <p className='text-gray-500 text-2xl'>Explore my</p>
@@ -26,36 +26,36 @@ export default function Experience() {
                 <p className='text-xl md:text-2xl font-semibold text-center'>Frontend Development</p>
                 <div className='flex'>
                     <ul className='grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-24 w-full'>
-                        <li className='flex justify-start items-center space-x-5'>
-                            <div>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+                            <div className=''>
                                 <SiHtml5 className="text-orange-600 text-3xl md:text-4xl" title="HTML5" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <p className='text-base md:text-lg font-semibold text-gray-500'>HTML</p>
                                 <p className='bg-orange-100 text-orange-400 px-1 rounded-md text-sm md:text-base'>Experienced</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
                             <div>
-                                <SiCss3 className="text-blue-600 text-3xl md:text-4xl" title="CSS3" />
+                                <SiCss3 className="text-blue-600 text-3xl md:text-4xl " title="CSS3" />
                             </div>
                             <div>
                                 <p className='text-base md:text-lg font-semibold text-gray-500'>CSS</p>
                                 <p className='bg-blue-100 text-blue-400 px-1 rounded-md text-sm md:text-base'>Experienced</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
                             <div>
-                                <SiJavascript className="text-yellow-400 text-3xl md:text-4xl" title="JavaScript" />
+                                <SiJavascript className="text-yellow-400 text-3xl md:text-4xl " title="JavaScript" />
                             </div>
                             <div>
                                 <p className='text-base md:text-lg font-semibold text-gray-500'>JavaScript</p>
                                 <p className='bg-yellow-100 text-yellow-400 px-1 rounded-md text-sm md:text-base'>Intermediate</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
                             <div>
-                                <SiTypescript className="text-blue-500 text-3xl md:text-4xl" title="TypeScript" />
+                                <SiTypescript className="text-blue-500 text-3xl md:text-4xl " title="TypeScript" />
                             </div>
                             <div>
                                 <p className='text-base md:text-lg font-semibold text-gray-500'>TypeScript</p>
@@ -69,36 +69,36 @@ export default function Experience() {
                 <p className='text-xl md:text-2xl font-semibold text-center'>Frameworks/Tools</p>
                 <div className='flex'>
                     <ul className='grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-24 w-full'>
-                        <li className='flex justify-start items-center space-x-5'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
                             <div>
-                                <SiReact className="text-cyan-400 animate-spin-slow text-3xl md:text-4xl" title="React" />
+                                <SiReact className="text-cyan-400 animate-spin-slow text-3xl md:text-4xl " title="React" />
                             </div>
                             <div>
                                 <p className='text-base md:text-lg font-semibold text-gray-500'>React</p>
                                 <p className='bg-cyan-100 text-cyan-400 px-1 rounded-md text-sm md:text-base'>Basic</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
                             <div>
-                                <FaVuejs className="text-green-500 text-4xl md:text-5xl" title="Vue.js" />
+                                <FaVuejs className="text-green-500 text-4xl md:text-5xl " title="Vue.js" />
                             </div>
                             <div>
                                 <p className='text-base md:text-lg font-semibold text-gray-500'>VUE</p>
                                 <p className='bg-green-100 text-green-400 px-1 rounded-md text-sm md:text-base'>Basic</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
                             <div>
-                                <SiTailwindcss className="text-sky-400 text-3xl md:text-4xl" title="Tailwind CSS" />
+                                <SiTailwindcss className="text-sky-400 text-3xl md:text-4xl " title="Tailwind CSS" />
                             </div>
                             <div>
                                 <p className='text-base md:text-lg font-semibold text-gray-500'>Tailwind CSS</p>
                                 <p className='bg-sky-100 text-sky-400 px-1 rounded-md text-sm md:text-base'>Intermediate</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
                             <div>
-                                <SiGit className="text-red-500 text-4xl md:text-5xl" title="Git" />
+                                <SiGit className="text-red-500 text-4xl md:text-5xl " title="Git" />
                             </div>
                             <div>
                                 <p className='text-base md:text-lg font-semibold text-gray-500'>Git</p>

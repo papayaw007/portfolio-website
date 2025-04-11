@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <main>
+    <main id='projects'>
     <div className='min-h-screen bg-gray-50'>
         <div className='w-full text-center py-8 md:py-5'>
             <p className='text-gray-500 text-xl md:text-2xl'>Browse my recent</p>

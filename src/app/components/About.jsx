@@ -7,7 +7,7 @@ import { MdWork } from 'react-icons/md';
 
 export default function About() {
   return (
-    <main>
+    <main id='about'>
   <div className='flex flex-col min-h-screen bg-gray-50'>
     <div className='w-full text-center mt-10'>
       <p>Get to Know More</p>

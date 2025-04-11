@@ -1,16 +1,10 @@
 import React from 'react'
 
-
-export default function Navbar() {
+export default function Footer() {
   return (
-    <main id='home'>
-         <div className='flex flex-col md:flex-row items-center justify-between px-4 md:px-8 lg:px-40 py-10 md:py-6 w-full'>
-  <div className='text-2xl md:text-3xl font-bold mb-4 md:mb-0' >
-    <a href="#home">
-    dev.py
-    </a>
-    </div>
-  <div className='w-full md:w-auto'>
+   <main>
+    <div className='flex flex-col items-center justify-center'>
+    <div className=' items-center justify-center p-8 md:p-10 w-full md:w-auto'>
     <ul className='flex flex-wrap justify-center md:justify-end gap-4 md:gap-6 lg:gap-10 text-lg md:text-xl lg:text-2xl font-light'>
     <li
      className="relative cursor-pointer transition-colors hover:text-gray-500
@@ -37,7 +31,11 @@ export default function Navbar() {
         </li>
     </ul>
   </div>
-</div>
-    </main>
+  <div>
+    <p className='text-gray-500 text-sm sm:text-lg p-10'>Copyright © 2025 Papa Yaw Adu-Asare. All Rights Reserved. </p>
+  </div>
+
+    </div>
+   </main>
   )
 }
