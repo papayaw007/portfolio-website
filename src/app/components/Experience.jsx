@@ -66,7 +66,7 @@ export default function Experience() {
                 </div>
             </div>
             <div className='w-full md:w-auto bg-white p-6 md:p-15 space-y-6 md:space-y-10 rounded-xl shadow-2xl'>
-                <p className='text-xl md:text-2xl font-semibold text-center'>Frameworks</p>
+                <p className='text-xl md:text-2xl font-semibold text-center'>Frameworks/Tools</p>
                 <div className='flex'>
                     <ul className='grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-24 w-full'>
                         <li className='flex justify-start items-center space-x-5'>

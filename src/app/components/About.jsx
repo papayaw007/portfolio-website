@@ -41,7 +41,7 @@ export default function About() {
               <p>Ashesi University</p>
             </div>
           </div>
-          <div className='mt-10 shadow-2xl border border-gray-300 rounded-lg bg-white py-8 sm:py-10 px-6 sm:px-8 text-sm sm:text-base'>
+          <div className='mt-10 shadow-2xl rounded-lg bg-white py-8 sm:py-10 px-6 sm:px-8 text-sm sm:text-base'>
             Hey there! I'm P.Y — a curious mind wired for creativity and code.With a background in <br className='hidden md:block' /> Computer Engineering and over a year of hands-on front-end experience, I bring ideas to <br className='hidden md:block' /> life with pixels, coffee, and way too many tabs open. I love building sleek, responsive interfaces <br className='hidden md:block' />and Im always hungry to learn the next cool thing.  Whether it's debugging at 2am or cheering <br className='hidden md:block' /> when a layout finally aligns, Im in it for the craft, the growth, and the occasional "wow" moment.<br className='hidden md:block' /> Lets build something awesome!
           </div>
         </div>
