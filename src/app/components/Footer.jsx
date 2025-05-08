@@ -17,7 +17,7 @@ export default function Footer() {
 <li className="relative cursor-pointer transition-colors hover:text-gray-500
   after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
   after:bg-gray-500 after:transition-all after:duration-300 hover:after:w-full">
-    <a href="#experience">Experience</a>
+    <a href="#experience">Skills</a>
 
 </li>
 <li className="relative cursor-pointer transition-colors hover:text-gray-500
