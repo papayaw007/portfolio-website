@@ -29,12 +29,12 @@ export default function Hero() {
                 Front-End Developer
               </p>
               <p className="text-center text-xl font-medoium text-zinc-500">
-                &lt;AI Prompt Engineer&gt;
+                &lt;AI Enthusiast&gt;
               </p>
             </div>
             <div className=" justify-center items-center space-y-3 md:space-y-0 md:space-x-8 flex flex-col md:flex-row">
               <a
-                href="/resume.pdf"
+                href="https://docs.google.com/document/d/1wHUaYo7xYN7T7_bGWWcRp2RUNobV22ghHSKZq_t_BLg/edit?usp=sharingf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 border-2 border-black rounded-full cursor-pointer hover:bg-black hover:text-white"
