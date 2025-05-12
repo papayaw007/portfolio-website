@@ -12,7 +12,7 @@ export default function Projects() {
         </div>
         
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-x-10 lg:gap-x-20 p-4 md:p-8 lg:p-8'>
-            <div className='flex flex-col justify-center items-center p-4 md:p-8 bg-white w-auto h-auto space-y-4 md:space-y-5 rounded-lg shadow-2xl'>
+            <div className='flex flex-col justify-center items-center p-4 md:p-8 bg-white w-auto h-auto space-y-4 md:space-y-5 rounded-lg shadow-2xl cursor-pointer'>
                 <div className='w-full max-w-xs h-60 md:h-80 bg-gray-600 rounded-lg'>
                     <img src='/denovo.jpeg' alt="" className='w-full h-full object-cover' />
                 </div>
@@ -42,7 +42,7 @@ export default function Projects() {
                         </button>
                 </div>
             </div>
-            <div className='flex flex-col justify-center items-center p-4 md:p-8 bg-white w-auto h-auto space-y-4 md:space-y-5 rounded-lg shadow-2xl'>
+            <div className='flex flex-col justify-center items-center p-4 md:p-8 bg-white w-auto h-auto space-y-4 md:space-y-5 rounded-lg shadow-2xl cursor-pointer'>
                 <div className='w-full max-w-xs h-60 md:h-80 bg-gray-600 rounded-lg'>
                 <img src='/otumfuo.jpeg' alt="" className='w-full h-full object-cover' />
                 </div>
@@ -68,7 +68,7 @@ export default function Projects() {
                     </button>
                 </div>
             </div>
-            <div className='flex flex-col justify-center items-center p-4 md:p-8 bg-white w-auto h-auto space-y-4 md:space-y-5 rounded-lg shadow-2xl'>
+            <div className='flex flex-col justify-center items-center p-4 md:p-8 bg-white w-auto h-auto space-y-4 md:space-y-5 rounded-lg shadow-2xl cursor-pointer'>
                 <div className='w-full max-w-xs h-60 md:h-80 bg-gray-600 rounded-lg'>
                 <img src='/generator.jpeg' alt="" className='w-full h-full object-cover' />
                 </div>

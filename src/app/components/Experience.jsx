@@ -29,7 +29,7 @@ export default function Experience() {
                 <p className='text-xl md:text-2xl font-semibold text-center'>Frontend Development</p>
                 <div className='flex'>
                     <ul className='grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-24 w-full'>
-                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 cursor-pointer hover:scale-110'>
                             <div className=''>
                                 <SiHtml5 className="text-orange-600 text-3xl md:text-4xl" title="HTML5" />
                             </div>
@@ -38,7 +38,7 @@ export default function Experience() {
                                 <p className='bg-orange-100 text-orange-400 px-1 rounded-md text-sm md:text-base'>Experienced</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 cursor-pointer hover:scale-110'>
                             <div>
                                 <SiCss3 className="text-blue-600 text-3xl md:text-4xl " title="CSS3" />
                             </div>
@@ -47,7 +47,7 @@ export default function Experience() {
                                 <p className='bg-blue-100 text-blue-400 px-1 rounded-md text-sm md:text-base'>Experienced</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 cursor-pointer hover:scale-110'>
                             <div>
                                 <SiJavascript className="text-yellow-400 text-3xl md:text-4xl " title="JavaScript" />
                             </div>
@@ -56,7 +56,7 @@ export default function Experience() {
                                 <p className='bg-yellow-100 text-yellow-400 px-1 rounded-md text-sm md:text-base'>Intermediate</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 cursor-pointer hover:scale-110'>
                             <div>
                                 <SiTypescript className="text-blue-500 text-3xl md:text-4xl " title="TypeScript" />
                             </div>
@@ -72,7 +72,7 @@ export default function Experience() {
                 <p className='text-xl md:text-2xl font-semibold text-center'>Frameworks/Tools</p>
                 <div className='flex'>
                     <ul className='grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-24 w-full'>
-                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 cursor-pointer hover:scale-110'>
                             <div>
                                 <SiReact className="text-cyan-400 animate-spin-slow text-3xl md:text-4xl " title="React" />
                             </div>
@@ -81,7 +81,7 @@ export default function Experience() {
                                 <p className='bg-cyan-100 text-cyan-400 px-1 rounded-md text-sm md:text-base'>Intermediate</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 cursor-pointer hover:scale-110'>
                             <div>
                                 <FaVuejs className="text-green-500 text-4xl md:text-5xl " title="Vue.js" />
                             </div>
@@ -90,7 +90,7 @@ export default function Experience() {
                                 <p className='bg-green-100 text-green-400 px-1 rounded-md text-sm md:text-base'>Basic</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 cursor-pointer hover:scale-110'>
                             <div>
                                 <SiTailwindcss className="text-sky-400 text-3xl md:text-4xl " title="Tailwind CSS" />
                             </div>
@@ -99,7 +99,7 @@ export default function Experience() {
                                 <p className='bg-sky-100 text-sky-400 px-1 rounded-md text-sm md:text-base'>Intermediate</p> 
                             </div>
                         </li>
-                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+                        <li className='flex justify-start items-center space-x-5 transform transition duration-300 cursor-pointer hover:scale-110'>
                             <div>
                                 <SiNextdotjs className="text-black text-4xl md:text-5xl " title="Git" />
                             </div>
@@ -116,7 +116,7 @@ export default function Experience() {
     <div className='flex justify-center items-center text-3xl font-semibold mb-5'>Tools</div>
     <div className='pb-30'>
         <ul className='flex flex-col sm:flex-row sm:space-x-20 space-y-4 sm:space-y-0'>
-            <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+            <li className='flex justify-start items-center space-x-5 transform transition duration-300 cursor-pointer hover:scale-110'>
                 <div>
                     <SiPostman className="text-orange-500 text-4xl md:text-5xl " title="Post" />
                 </div>
@@ -125,7 +125,7 @@ export default function Experience() {
                     <p className='bg-orange-100 text-orange-400 px-1 rounded-md text-sm md:text-base'>Intermediate</p>
                 </div>
             </li>
-            <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+            <li className='flex justify-start items-center space-x-5 transform transition duration-300 cursor-pointer hover:scale-110'>
                 <div>
                     <SiGit className="text-red-500 text-4xl md:text-5xl " title="Git" />
                 </div>
@@ -134,7 +134,7 @@ export default function Experience() {
                     <p className='bg-red-100 text-red-400 px-1 rounded-md text-sm md:text-base'>Intermediate</p>
                 </div>
             </li>
-            <li className='flex justify-start items-center space-x-5 transform transition duration-300 hover:scale-110'>
+            <li className='flex justify-start items-center space-x-5 transform transition duration-300 cursor-pointer hover:scale-110'>
                 <div>
                     <SiFirebase className="text-red-500 text-4xl md:text-5xl " title="Firebase" />
                 </div>
